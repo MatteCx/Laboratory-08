@@ -1,5 +1,6 @@
 from database.distributore_DAO import DistributoreDAO
 
+
 '''
     MODELLO:
     - Rappresenta la struttura dati
