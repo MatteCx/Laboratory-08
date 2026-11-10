@@ -15,6 +15,8 @@ class Controller:
 
         # Variabili per memorizzare le selezioni correnti
         self.mese_selezionato = 0
+        for i in range(1, 13):
+            self._model.get_sequenza_ottima(i)
 
     def leggi_mese(self, e):
         self.mese_selezionato = int(e.control.value)
